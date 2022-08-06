@@ -28,3 +28,8 @@ if st.button("Predict type of Iris"):
         np.array([[sepal_l, sepal_w, petal_l, petal_w]]))
     st.text(result[0])
 
+st.text('')
+st.text('')
+st.markdown(
+    '`Created by` [sgatea](https://twitter.com/sgatea) | \
+         `Code:` [GitHub](https://github.com/sgatea/streamlit-iris)')
